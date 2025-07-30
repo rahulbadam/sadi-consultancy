@@ -1,0 +1,95 @@
+.home {
+  padding: 60px 0;
+}
+
+.intro {
+  max-width: 900px;
+  margin: 0 auto 60px auto;
+  text-align: center;
+}
+
+.intro h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.review-link {
+  display: block;
+  margin-bottom: 20px;
+  font-style: italic;
+  color: #555;
+}
+
+.more-about-us {
+  background-color: #d3a36f;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.about-us, .our-services, .testimonials {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: 60px auto;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+}
+
+.about-us h2, .our-services h2, .testimonials h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-us p, .our-services p, .our-services ul {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.our-services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.our-services li {
+  margin-bottom: 10px;
+}
+
+.testimonial {
+  border-left: 4px solid #d3a36f;
+  padding-left: 20px;
+  margin-bottom: 30px;
+  font-style: italic;
+  text-align: left;
+}
+
+.testimonial span {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .home {
+    padding: 40px 0;
+  }
+
+  .intro {
+    margin-bottom: 40px;
+  }
+
+  .about-us, .our-services, .testimonials {
+    padding: 40px 15px;
+    margin: 40px auto;
+  }
+}

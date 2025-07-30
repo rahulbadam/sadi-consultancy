@@ -1,0 +1,32 @@
+.hero {
+  background-color: #f7f7f7;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.hero h3 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.hero-button {
+  background-color: #d3a36f;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
