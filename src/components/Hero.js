@@ -11,8 +11,9 @@ const Hero = () => {
 
   return (
     <div className="hero" ref={ref}>
-      <h1 className={`animated ${inView ? 'visible slide-in-left' : ''}`}>Unforgettable Events</h1>
-      <h3 className={`animated ${inView ? 'visible fade-in' : ''}`} style={{ animationDelay: '0.5s' }}>Creating Memories that Last a Lifetime</h3>
+      <h3 className={`animated ${inView ? 'visible fade-in' : ''}`} style={{ animationDelay: '0.5s' }}>
+        Exceptional Catering for Unforgettable Events
+      </h3>
       <div className="hero-buttons">
         <Link to="/services" className={`hero-button animated ${inView ? 'visible slide-in-up' : ''}`} style={{ animationDelay: '1s' }}>Our Services</Link>
         <Link to="/gallery" className={`hero-button animated ${inView ? 'visible slide-in-up' : ''}`} style={{ animationDelay: '1.2s' }}>Gallery</Link>

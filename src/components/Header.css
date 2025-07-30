@@ -1,44 +1,8 @@
 .header {
   background-color: #fff;
   color: #333;
-  padding: 10px 20px;
+  padding: 20px 0;
   border-bottom: 1px solid #eee;
-}
-
-.top-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 12px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #eee;
-}
-
-.contact-info span {
-  margin-right: 20px;
-}
-
-.contact-info a {
-  color: #333;
-  text-decoration: none;
-}
-
-.social-media button {
-  background: none;
-  border: none;
-  cursor: pointer;
-  margin-left: 15px;
-  color: #333;
-  font-size: 16px;
-  padding: 0;
-}
-
-.enquire-now {
-  background-color: #d3a36f;
-  color: #fff;
-  padding: 8px 15px;
-  text-decoration: none;
-  border-radius: 5px;
 }
 
 .main-header {
@@ -46,6 +10,27 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 10px;
+  position: relative;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo-link h1 {
+  margin-left: 15px;
+  font-size: 32px;
+  color: #333;
+}
+
+.logo-link h1 span {
+  color: #d3a36f;
 }
 
 .logo {
@@ -78,18 +63,13 @@ nav a {
 }
 
 @media (max-width: 768px) {
-  .top-bar {
-    flex-direction: column;
-    align-items: center;
+  .logo-link {
+    position: static;
+    transform: none;
   }
 
-  .contact-info {
-    margin-bottom: 10px;
-    text-align: center;
-  }
-
-  .social-media {
-    margin-bottom: 10px;
+  .logo-link h1 {
+    font-size: 24px;
   }
 
   .main-header {

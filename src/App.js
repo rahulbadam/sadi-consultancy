@@ -30,9 +30,9 @@ function App() {
         <Route path="/" element={
           <>
             <Hero />
-            <Home />
             <MoreInfo />
             <Catering />
+            <Home />
           </>
         } />
         <Route path="/services" element={<Services />} />
