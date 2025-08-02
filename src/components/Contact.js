@@ -7,8 +7,8 @@ const Contact = () => {
       <h2>Contact Us</h2>
       <p>We would love to hear from you. Please contact us using the details below, or fill out the form to send us a message.</p>
       <div className="contact-details">
-        <p><strong>Phone:</strong> +447452880001</p>
-        <p><strong>Email:</strong> info@onwheelcatering.com</p>
+        <p><strong>Phone:</strong> +44 74 52880001</p>
+        <p><strong>Email:</strong> onwheelscatering6@gmail.com</p>
         <p><strong>Address:</strong> 77 Gammons lane watford WD245HU</p>
       </div>
       <form className="contact-form">

@@ -11,8 +11,8 @@ const Footer = () => {
           <img src={logo} alt="ONWHEEL CATERING LIMITED" className="footer-logo" />
           <h4>ONWHEEL CATERING LIMITED</h4>
           <h5>Contact Us</h5>
-          <p><i className="fas fa-phone"></i> <a href="tel:+447452880001">+447452880001</a></p>
-          <p><i className="fas fa-envelope"></i> <a href="mailto:info@onwheelcatering.com">info@onwheelcatering.com</a></p>
+          <p><i className="fas fa-phone"></i> <a href="tel:+447452880001">+44 74 52880001</a></p>
+          <p><i className="fas fa-envelope"></i> <a href="mailto:onwheelscatering6@gmail.com">onwheelscatering6@gmail.com</a></p>
           <h5>Our Address</h5>
           <p><i className="fas fa-map-marker-alt"></i> 77 Gammons lane, watford WD245HU</p>
         </div>
