@@ -13,47 +13,48 @@ const Home = () => {
   return (
     <div className="home container">
       <section ref={refIntro} className={`intro animated ${inViewIntro ? 'visible slide-in-left' : ''}`}>
-        <h2>Your Vision, Our Passion</h2>
+        <h2>Empowering Your Business with Technology</h2>
         <p>
-          We are a team of passionate event planners and caterers dedicated to bringing your vision to life. With years of experience in the industry, we have the expertise to handle events of all sizes, from intimate gatherings to large corporate functions. Our commitment to quality and attention to detail ensures that every event is a success.
+          SADI IT CONSULTANCY LTD is your trusted partner for innovative IT solutions. We help businesses leverage technology to drive growth, efficiency, and security. Our team of experienced consultants delivers tailored strategies and hands-on support for organizations of all sizes.
         </p>
         <p>
-          At Awesome Events, we believe that great events start with great food. Our culinary team creates delicious and innovative menus using only the freshest ingredients. We work with you to create a custom menu that reflects your taste and style.
+          From cloud migration and cybersecurity to custom software development and IT support, we provide end-to-end services that enable you to focus on your core business. Our commitment to excellence and client success sets us apart in the IT consultancy industry.
         </p>
         <p>
-          Let us take the stress out of planning your next event. We offer a full range of services, including event design, venue selection, and on-site coordination. Contact us today to learn more about how we can make your next event unforgettable.
+          Ready to transform your business with technology? Contact us today to discover how SADI IT CONSULTANCY LTD can help you achieve your goals.
         </p>
-        <Link to="#" className="review-link">"The team at Awesome Events was a pleasure to work with. They were professional, creative, and attentive to every detail." - Jane Doe</Link>
+        <Link to="#" className="review-link">"SADI IT CONSULTANCY LTD delivered outstanding results for our digital transformation project. Highly recommended!" - Jane Doe, CEO</Link>
         <Link to="/about" className="more-about-us">Learn More</Link>
       </section>
 
       <section ref={ref1} className={`about-us animated ${inView1 ? 'visible slide-in-up' : ''}`}>
-        <h2>About On-Wheel Catering</h2>
-        <p>Founded in 2023, On-Wheel Catering was born from a passion for creating unforgettable culinary experiences. We believe that every event, big or small, deserves exceptional food and impeccable service. Our journey began with a single food truck and a dream to bring restaurant-quality dining to any location.</p>
-        <p>Our philosophy is simple: use the freshest, locally-sourced ingredients to craft delicious, innovative dishes that delight the senses. We are more than just caterers; we are creators of memories, and we are honored to be a part of your special moments.</p>
+        <h2>About SADI IT CONSULTANCY LTD</h2>
+        <p>Founded in 2023, SADI IT CONSULTANCY LTD was established to help businesses harness the power of technology. Our mission is to deliver reliable, scalable, and secure IT solutions that drive business success. With a team of certified professionals, we bring deep expertise in IT strategy, cloud computing, cybersecurity, and software development.</p>
+        <p>We believe in building long-term partnerships with our clients, providing ongoing support and guidance as technology evolves. Your success is our priority.</p>
       </section>
 
       <section ref={ref2} className={`our-services animated ${inView2 ? 'visible slide-in-up' : ''}`}>
         <h2>Our Services</h2>
-        <p>We offer a wide range of catering services to suit any occasion. From corporate lunches to elegant weddings, our team is equipped to handle it all. Our services include:</p>
+        <p>We offer a comprehensive suite of IT consultancy services to help your business thrive in the digital age. Our services include:</p>
         <ul>
-          <li>Corporate Event Catering</li>
-          <li>Wedding Receptions</li>
-          <li>Private Parties</li>
-          <li>Holiday Gatherings</li>
-          <li>Custom Menu Planning</li>
+          <li>IT Strategy & Consulting</li>
+          <li>Cloud Solutions & Migration</li>
+          <li>Cybersecurity & Risk Management</li>
+          <li>Custom Software Development</li>
+          <li>Managed IT Support</li>
+          <li>Digital Transformation</li>
         </ul>
-        <p>We also provide full-service event planning, including venue selection, decor, and entertainment. Let us handle the details so you can enjoy your event.</p>
+        <p>Let us handle your technology needs so you can focus on growing your business.</p>
       </section>
 
       <section ref={ref3} className={`testimonials animated ${inView3 ? 'visible fade-in' : ''}`}>
         <h2>What Our Clients Say</h2>
         <div className="testimonial">
-          <p>"On-Wheel Catering made our wedding day absolutely perfect. The food was incredible, and the service was top-notch. We couldn't have asked for a better experience."</p>
-          <span>- Sarah & Tom</span>
+          <p>"SADI IT CONSULTANCY LTD helped us migrate to the cloud seamlessly. Their expertise and support were invaluable throughout the process."</p>
+          <span>- Sarah & Tom, Business Owners</span>
         </div>
         <div className="testimonial">
-          <p>"We hired On-Wheel for our annual corporate event, and they exceeded all our expectations. The food was a huge hit with our employees, and the planning process was seamless."</p>
+          <p>"We rely on SADI IT CONSULTANCY LTD for ongoing IT support and cybersecurity. Their team is responsive, knowledgeable, and always delivers results."</p>
           <span>- John D., TechCorp</span>
         </div>
       </section>

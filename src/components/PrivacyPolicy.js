@@ -6,7 +6,7 @@ const PrivacyPolicy = () => {
     <div className="secondary-page">
       <h2>Privacy Policy</h2>
       <p>
-        This Privacy Policy describes how On-Wheel Catering ("we", "us", or "our") collects, uses, and discloses your personal information when you visit our website.
+        This Privacy Policy describes how SADI IT CONSULTANCY LTD ("we", "us", or "our") collects, uses, and discloses your personal information when you visit our website.
       </p>
       <h3>1. Information We Collect</h3>
       <p>

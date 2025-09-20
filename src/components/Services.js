@@ -11,46 +11,46 @@ const Services = () => {
 
   return (
     <div className="secondary-page">
-      <h2>Our Services</h2>
-      <p>We offer a wide range of services to make your event a success. From intimate dinners to large corporate events, we have you covered.</p>
-      
+      <h2>Our IT Consultancy Services</h2>
+      <p>We provide a comprehensive range of IT services designed to help your business succeed in the digital era. Our expertise covers every aspect of technology, from strategy to implementation and ongoing support.</p>
+
       <div ref={ref1} className={`animated ${inView1 ? 'visible slide-in-up' : ''}`} style={{marginTop: '40px'}}>
-        <h3>Wedding Catering</h3>
-        <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Wedding Food" />
+        <h3>IT Strategy & Consulting</h3>
+        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=compress&w=800&q=80" alt="IT Strategy" />
         <p>
-          Our team of expert chefs will work with you to create a bespoke menu that reflects your taste and style. We use only the freshest, locally sourced ingredients to create delicious and innovative dishes that will delight your guests. Whether you're planning an intimate gathering or a grand celebration, we have the expertise to make your wedding day a culinary success. We offer buffet-style, plated dinners, and food stations to fit your vision.
+          We help you develop and execute a technology roadmap aligned with your business goals. Our consultants provide expert advice on digital transformation, infrastructure, and process optimization.
         </p>
       </div>
 
       <div ref={ref2} className={`animated ${inView2 ? 'visible slide-in-up' : ''}`} style={{marginTop: '40px'}}>
-        <h3>Corporate Catering</h3>
-        <img src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Corporate Food" />
+        <h3>Cloud Solutions & Migration</h3>
+        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=compress&w=800&q=80" alt="Cloud Solutions" />
         <p>
-          We understand the importance of making a good impression in the corporate world. That's why we offer a range of corporate catering services to suit your needs, from breakfast meetings to product launches. Our team will work with you to create a menu that is both delicious and professional, and our experienced staff will ensure that your event is a success. We can accommodate dietary restrictions and preferences to ensure all your guests are satisfied.
+          Move your business to the cloud with confidence. We offer cloud migration, management, and optimization services for platforms like AWS, Azure, and Google Cloud.
         </p>
       </div>
 
       <div ref={ref3} className={`animated ${inView3 ? 'visible slide-in-up' : ''}`} style={{marginTop: '40px'}}>
-        <h3>Private Parties</h3>
-        <img src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Party Food" />
+        <h3>Cybersecurity & Risk Management</h3>
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=compress&w=800&q=80" alt="Cybersecurity" />
         <p>
-          Our party catering services are designed to take the stress out of hosting. We offer a wide range of menu options to suit any occasion, from casual get-togethers to formal celebrations. Our team will work with you to create a menu that your guests will love, and our professional staff will ensure that your event runs smoothly. We can also provide bar services and staffing for your event.
+          Protect your business from cyber threats. Our team provides security assessments, compliance consulting, and ongoing monitoring to keep your data safe.
         </p>
       </div>
 
       <div ref={ref4} className={`animated ${inView4 ? 'visible slide-in-up' : ''}`} style={{marginTop: '40px'}}>
-        <h3>Special Events</h3>
-        <img src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Special Events Food" />
+        <h3>Custom Software Development</h3>
+        <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=compress&w=800&q=80" alt="Software Development" />
         <p>
-          No matter the occasion, we have the perfect catering solution for you. We have experience catering for a wide range of special events, from intimate family gatherings to large-scale festivals. Our team will work with you to create a menu that is tailored to your event, and our professional staff will ensure that your guests have an unforgettable experience.
+          We design and build custom software solutions tailored to your business needs, from web applications to enterprise systems.
         </p>
       </div>
 
       <div ref={ref5} className={`animated ${inView5 ? 'visible slide-in-up' : ''}`} style={{marginTop: '40px'}}>
-        <h3>Event Planning</h3>
-        <img src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Event Planning" />
+        <h3>Managed IT Support</h3>
+        <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=compress&w=800&q=80" alt="IT Support" />
         <p>
-          In addition to our catering services, we also offer full-service event planning. Our experienced event planners will work with you to bring your vision to life. We can assist with venue selection, decor, entertainment, and more. Let us handle the details so you can relax and enjoy your event.
+          Our managed IT services ensure your systems run smoothly and securely. We provide helpdesk support, maintenance, and proactive monitoring for your business.
         </p>
       </div>
     </div>

@@ -12,38 +12,38 @@ const MoreInfo = () => {
     <div className="more-info container">
       <div ref={ref1} className={`info-section animated ${inView1 ? 'visible slide-in-left' : ''}`}>
         <div className="info-text">
-          <h2>Exceptional Catering</h2>
+          <h2>Expert IT Solutions</h2>
           <p>
-            At Awesome Events, catering is our passion. We create memorable food for weddings, parties, and corporate events.
+            SADI IT CONSULTANCY LTD delivers innovative IT solutions for businesses, including cloud migration, cybersecurity, and custom software development.
           </p>
           <Link to="/case-studies" className="learn-more">Learn More</Link>
         </div>
         <div className="info-image">
-          <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Catering" />
+          <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=compress&w=800&q=80" alt="IT Solutions" />
         </div>
       </div>
       <div ref={ref2} className={`info-section reverse animated ${inView2 ? 'visible slide-in-left' : ''}`}>
         <div className="info-text">
-          <h2>Dream Wedding Feasts</h2>
+          <h2>Digital Transformation</h2>
           <p>
-            Your wedding food should be as special as your big day. We create elegant, flavour-packed menus that reflect your style.
+            We help organizations modernize their infrastructure and processes, enabling growth and efficiency through technology.
           </p>
-          <Link to="/weddings" className="learn-more">Learn More</Link>
+          <Link to="/services" className="learn-more">Learn More</Link>
         </div>
         <div className="info-image">
-          <img src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Wedding Feast" />
+          <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=compress&w=800&q=80" alt="Digital Transformation" />
         </div>
       </div>
       <div ref={ref3} className={`info-section animated ${inView3 ? 'visible slide-in-left' : ''}`}>
         <div className="info-text">
-          <h2>Luxury Private Parties</h2>
+          <h2>IT Support & Security</h2>
           <p>
-            Every celebration deserves unforgettable food. We specialise in luxury party catering tailored to you and your guests.
+            Our team provides ongoing IT support and cybersecurity services to keep your business running smoothly and securely.
           </p>
-          <Link to="/parties" className="learn-more">Learn More</Link>
+          <Link to="/services" className="learn-more">Learn More</Link>
         </div>
         <div className="info-image">
-          <img src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Private Party" />
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=compress&w=800&q=80" alt="IT Support" />
         </div>
       </div>
     </div>

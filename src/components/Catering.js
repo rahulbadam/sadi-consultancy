@@ -40,27 +40,33 @@ const Catering = () => {
     <div className="catering-container">
       <Slider {...settings}>
         <div className="catering-item">
-          <Link to="/weddings">
-            <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Wedding Catering" />
-            <h3>Weddings</h3>
+          <Link to="/services">
+            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=compress&w=800&q=80" alt="Cloud Solutions" />
+            <h3>Cloud Solutions</h3>
           </Link>
         </div>
         <div className="catering-item">
-          <Link to="/parties">
-            <img src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Private Party Catering" />
-            <h3>Parties</h3>
+          <Link to="/services">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=compress&w=800&q=80" alt="Cybersecurity" />
+            <h3>Cybersecurity</h3>
           </Link>
         </div>
         <div className="catering-item">
-          <Link to="/corporate">
-            <img src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Corporate Event Catering" />
-            <h3>Corporate</h3>
+          <Link to="/services">
+            <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=compress&w=800&q=80" alt="Software Development" />
+            <h3>Software Development</h3>
           </Link>
         </div>
         <div className="catering-item">
-          <Link to="/special-events">
-            <img src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Special Events Catering" />
-            <h3>Special Events</h3>
+          <Link to="/services">
+            <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=compress&w=800&q=80" alt="IT Support" />
+            <h3>IT Support</h3>
+          </Link>
+        </div>
+        <div className="catering-item">
+          <Link to="/services">
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=compress&w=800&q=80" alt="Digital Transformation" />
+            <h3>Digital Transformation</h3>
           </Link>
         </div>
       </Slider>

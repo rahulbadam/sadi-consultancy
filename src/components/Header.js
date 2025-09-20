@@ -10,8 +10,8 @@ const Header = () => {
     <header className="header">
       <div className="main-header container">
         <Link to="/" className="logo-link">
-          <img src={logo} alt="ONWHEEL CATERING LIMITED" className="logo" />
-          <h1>On-Wheel <span>Catering</span></h1>
+          <img src={logo} alt="SADI IT CONSULTANCY LTD" className="logo" />
+          <h1>SADI IT <span>CONSULTANCY LTD</span></h1>
         </Link>
         <button className="hamburger" onClick={() => setIsOpen(!isOpen)}>
           <i className={isOpen ? 'fas fa-times' : 'fas fa-bars'}></i>

@@ -8,13 +8,13 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content container">
         <div className="footer-section">
-          <img src={logo} alt="ONWHEEL CATERING LIMITED" className="footer-logo" />
-          <h4>ONWHEEL CATERING LIMITED</h4>
+          <img src={logo} alt="SADI IT CONSULTANCY LTD" className="footer-logo" />
+          <h4>SADI IT CONSULTANCY LTD</h4>
           <h5>Contact Us</h5>
-          <p><i className="fas fa-phone"></i> <a href="tel:+447452880001">+44 74 52880001</a></p>
-          <p><i className="fas fa-envelope"></i> <a href="mailto:onwheelscatering6@gmail.com">onwheelscatering6@gmail.com</a></p>
+          <p><i className="fas fa-phone"></i> <a href="tel:+441234567890">7452880001</a></p>
+          <p><i className="fas fa-envelope"></i> <a href="mailto:sadiitconsultancy@gmail.com">sadiitconsultancy@gmail.com</a></p>
           <h5>Our Address</h5>
-          <p><i className="fas fa-map-marker-alt"></i> 77 Gammons lane, watford WD245HU</p>
+          <p><i className="fas fa-map-marker-alt"></i> 100 Tech Park, London, UK</p>
         </div>
         <div className="footer-section">
           <h5>Key Pages</h5>
@@ -22,7 +22,7 @@ const Footer = () => {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/services">Services</Link></li>
-            <li><Link to="/gallery">Gallery</Link></li>
+            <li><Link to="/gallery">Projects</Link></li>
             <li><Link to="/contact">Contact</Link></li>
           </ul>
         </div>
@@ -33,14 +33,15 @@ const Footer = () => {
             <button type="submit">Subscribe</button>
           </form>
           <div className="social-media">
-            <button onClick={() => window.open('#', '_blank')}><i className="fab fa-facebook-f"></i></button>
-            <button onClick={() => window.open('#', '_blank')}><i className="fab fa-instagram"></i></button>
-            <button onClick={() => window.open('#', '_blank')}><i className="fab fa-tiktok"></i></button>
+            <button onClick={() => window.open('https://www.linkedin.com/company/sadiitconsultancy', '_blank')}><i className="fab fa-linkedin-in"></i></button>
+            <button onClick={() => window.open('https://twitter.com/sadiitconsultancy', '_blank')}><i className="fab fa-twitter"></i></button>
+            <button onClick={() => window.open('https://github.com/sadiitconsultancy', '_blank')}><i className="fab fa-github"></i></button>
           </div>
         </div>
       </div>
       <div className="footer-bottom">
-        <p>© On-Wheel Catering 2025 | <Link to="/privacy-policy">Privacy Policy</Link> | <Link to="/terms-and-conditions">Terms & Conditions</Link></p>
+        <p>© SADI IT CONSULTANCY LTD 2025 | <Link to="/privacy-policy">Privacy Policy</Link> | <Link to="/terms-and-conditions">Terms & Conditions</Link></p>
+        <p>Empowering your business with technology solutions.</p>
       </div>
     </footer>
   );

@@ -6,20 +6,20 @@ const CaseStudies = () => {
     <div className="secondary-page">
       <h2>Case Studies</h2>
       <p>
-        Check out some of our past events and see how we've helped our clients create unforgettable experiences.
+        Explore how we've helped clients achieve digital transformation, improve security, and grow their businesses with technology.
       </p>
       <div style={{marginTop: '40px'}}>
-        <h3>A Summer Wedding in the Countryside</h3>
-        <img src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Wedding" />
+        <h3>Cloud Migration for FinTech</h3>
+        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=compress&w=800&q=80" alt="Cloud Migration" />
         <p>
-          We had the pleasure of catering for a beautiful summer wedding in the countryside. The couple wanted a relaxed and informal atmosphere, so we created a menu of delicious sharing platters and canapés. The guests loved the food, and the event was a huge success.
+          We helped a leading FinTech company migrate their infrastructure to the cloud, improving scalability and reducing costs. Our team managed the entire process, ensuring zero downtime and enhanced security.
         </p>
       </div>
       <div style={{marginTop: '40px'}}>
-        <h3>A Corporate Product Launch</h3>
-        <img src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Corporate Event" />
+        <h3>Cybersecurity Upgrade for Retailer</h3>
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=compress&w=800&q=80" alt="Cybersecurity" />
         <p>
-          We were asked to cater for a corporate product launch for a major tech company. We created a menu of canapés and bowl food that was both delicious and visually impressive. The event was a great success, and we received fantastic feedback from the client.
+          A national retailer partnered with us to upgrade their cybersecurity. We implemented advanced threat detection and compliance solutions, protecting sensitive customer data and ensuring regulatory compliance.
         </p>
       </div>
     </div>
