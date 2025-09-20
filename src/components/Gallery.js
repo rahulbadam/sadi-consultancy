@@ -16,8 +16,8 @@ const Gallery = () => {
 
   return (
     <div className="gallery-container">
-  <h2>Our Projects & Team</h2>
-  <p>Explore our recent IT projects, team, and work environment.</p>
+      <h2>Our Projects & Team</h2>
+      <p>Explore our recent IT projects, team, and work environment.</p>
       <div className="gallery">
         {images.map((src, index) => (
           <GalleryItem key={index} src={src} alt={`IT Project ${index + 1}`} />
