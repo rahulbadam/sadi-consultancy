@@ -9,7 +9,7 @@ const Contact = () => {
       <div className="contact-details">
         <p><strong>Phone:</strong> 7452880001</p>
         <p><strong>Email:</strong> sadiitconsultancy@gmail.com</p>
-        <p><strong>Address:</strong> 100 Tech Park, London, UK</p>
+        <p><strong>Address:</strong> 8a Langley road, WD17 4PT, Watford</p>
       </div>
       <form className="contact-form">
         <input type="text" placeholder="Your Name" required />
