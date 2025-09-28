@@ -7,7 +7,7 @@ const Contact = () => {
       <h2>Contact SADI IT CONSULTANCY LTD</h2>
       <p>We are here to help you with your IT needs. Reach out to us using the details below, or fill out the form to request a consultation or more information.</p>
       <div className="contact-details">
-        <p><strong>Phone:</strong> 7452880001</p>
+        <p><strong>Phone:</strong>+44 7452880001</p>
         <p><strong>Email:</strong> sadiitconsultancy@gmail.com</p>
         <p><strong>Address:</strong> 8a Langley road, WD17 4PT, Watford</p>
       </div>

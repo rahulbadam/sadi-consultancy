@@ -11,7 +11,7 @@ const Footer = () => {
           <img src={logo} alt="SADI IT CONSULTANCY LTD" className="footer-logo" />
           <h4>SADI IT CONSULTANCY LTD</h4>
           <h5>Contact Us</h5>
-          <p><i className="fas fa-phone"></i> <a href="tel:+441234567890">7452880001</a></p>
+          <p><i className="fas fa-phone"></i> <a href="tel:+441234567890">+44 7452880001</a></p>
           <p><i className="fas fa-envelope"></i> <a href="mailto:sadiitconsultancy@gmail.com">sadiitconsultancy@gmail.com</a></p>
           <h5>Our Address</h5>
           <p><i className="fas fa-map-marker-alt"></i> 8a Langley road, WD17 4PT, Watford</p>
